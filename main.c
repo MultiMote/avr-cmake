@@ -7,7 +7,7 @@ int main() {
     while (1) {
         PORTD = 0xFF;
         _delay_ms(500);
-        PORTD =  0xFF;
+        PORTD = 0x00;
         _delay_ms(500);
     }
 }
